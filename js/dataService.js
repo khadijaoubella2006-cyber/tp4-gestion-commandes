@@ -1,4 +1,3 @@
-
 export async function getData() {
     try {
         const customersResponse = await fetch("./data/customers.json");

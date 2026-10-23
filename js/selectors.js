@@ -1,4 +1,3 @@
-
 export function getOrderDetails(order, state) {
     const customer = state.customers.find(
         customer => customer.id === order.customerId );
