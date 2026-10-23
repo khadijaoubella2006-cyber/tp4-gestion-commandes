@@ -4,11 +4,10 @@ export async function getData() {
         const productsResponse = await fetch("./data/products.json");
         const ordersResponse = await fetch("./data/orders.json");
 
-        if (
+ if (
             !customersResponse.ok ||
             !productsResponse.ok ||
-            !ordersResponse.ok
-        ) {
+            !ordersResponse.ok) {
             throw new Error("Erreur lors du chargement des données");
         }
 

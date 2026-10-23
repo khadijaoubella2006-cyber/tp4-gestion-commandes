@@ -4,8 +4,7 @@ import { renderStats, renderOrders, renderProducts } from "./view.js";
 function render() {
     renderStats(state);
     renderOrders(state);
-    renderProducts(state);
-}
+    renderProducts(state);}
 
 async function init() {
     const errorMessage = document.getElementById("errorMessage");

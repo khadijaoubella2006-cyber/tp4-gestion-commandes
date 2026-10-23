@@ -8,8 +8,7 @@ function getStatusBadge(status) {
     if (status === "Livrée") return "bg-success";
     if (status === "En cours") return "bg-warning text-dark";
     if (status === "Annulée") return "bg-danger";
-    return "bg-secondary";
-}
+    return "bg-secondary";}
 export function renderStats(state) {
     document.getElementById("totalCustomers").textContent =
         state.customers.length;

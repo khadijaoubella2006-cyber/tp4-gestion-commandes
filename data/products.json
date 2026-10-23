@@ -6,8 +6,7 @@
     "price": 8999 ,
     "stock": 12,
     "image": "images/samsung-s25.jpg"
-  },
-  {
+  }, {
     "id": 2,
     "name": "iPhone 16",
     "category": "Smartphones",

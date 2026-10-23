@@ -4,14 +4,12 @@
     "name": "Sara",
     "city": "Marrakech",
     "active": true
-  },
-  {
+  }, {
     "id": 2,
     "name": "Youssef",
     "city": "Casablanca",
     "active": true
-  },
-  {
+  }, {
     "id": 3,
     "name": "Salma",
     "city": "Rabat",

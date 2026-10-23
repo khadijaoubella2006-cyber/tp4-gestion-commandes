@@ -10,8 +10,7 @@ export function getOrderDetails(order, state) {
             quantity: item.quantity,
             lineTotal: lineTotal};});
     const total = items.reduce(
-        (sum, item) => sum + item.lineTotal,
-        0 );
+        (sum, item) => sum + item.lineTotal, 0 );
     return {
         customer: customer,
         items: items,
