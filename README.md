@@ -1,4 +1,4 @@
-# Gestion des commandes électroniquestyt
+# Gestion des commandes électroniques
 Application JavaScript structurée avec données liées.
 ## Description
 Application frontend qui charge 3 fichiers JSON liés (customers, products, orders), 
