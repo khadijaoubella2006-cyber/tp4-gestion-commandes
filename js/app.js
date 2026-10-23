@@ -24,20 +24,14 @@ async function init() {
         renderStats(state);
         renderOrders(state);
         renderProducts(state);
-
-        // Recherche par nom du client
         searchInput.addEventListener("input", () => {
             state.search = searchInput.value.trim();
             renderOrders(state);
         });
-
-        // Filtrer par statut
         statusFilter.addEventListener("change", () => {
             state.status = statusFilter.value;
             renderOrders(state);
         });
-
-        // Filtrer par catégorie
         categoryFilter.addEventListener("change", () => {
             state.category = categoryFilter.value;
             renderOrders(state);

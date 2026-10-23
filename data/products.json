@@ -4,7 +4,7 @@
     "id": 1,
     "name": "Samsung Galaxy S25",
     "category": "Smartphones",
-    "price": 8999,
+    "price": 8999 ,
     "stock": 12,
     "image": "images/samsung-s25.jpg"
   },
