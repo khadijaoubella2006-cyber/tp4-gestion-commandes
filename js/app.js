@@ -1,7 +1,11 @@
-
 import { state } from "./state.js";
 import { getData } from "./dataService.js";
 import { renderStats, renderOrders, renderProducts } from "./view.js";
+function render() {
+    renderStats(state);
+    renderOrders(state);
+    renderProducts(state);
+}
 
 async function init() {
     const errorMessage = document.getElementById("errorMessage");
@@ -21,21 +25,16 @@ async function init() {
         console.log("Products:", state.products);
         console.log("Orders:", state.orders);
 
-        renderStats(state);
-        renderOrders(state);
-        renderProducts(state);
+       render();
         searchInput.addEventListener("input", () => {
             state.search = searchInput.value.trim();
-            renderOrders(state);
-        });
+            renderOrders(state); });
         statusFilter.addEventListener("change", () => {
             state.status = statusFilter.value;
-            renderOrders(state);
-        });
+            renderOrders(state); });
         categoryFilter.addEventListener("change", () => {
             state.category = categoryFilter.value;
-            renderOrders(state);
-        });
+            renderOrders(state); });
 
         errorMessage.classList.add("d-none");
 
