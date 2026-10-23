@@ -1,0 +1,45 @@
+
+[
+  {
+    "id": 1,
+    "name": "Sara",
+    "city": "Marrakech",
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "Youssef",
+    "city": "Casablanca",
+    "active": true
+  },
+  {
+    "id": 3,
+    "name": "Salma",
+    "city": "Rabat",
+    "active": false
+  },
+  {
+    "id": 4,
+    "name": "Amine",
+    "city": "Agadir",
+    "active": true
+  },
+  {
+    "id": 5,
+    "name": "Imane",
+    "city": "Fes",
+    "active": false
+  },
+  {
+    "id": 6,
+    "name": "Hamza",
+    "city": "Tanger",
+    "active": true
+  },
+  {
+     "id": 7,
+    "name": "wiam",
+    "city": "Casablanca",
+    "active": false
+  }
+]

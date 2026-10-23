@@ -1,0 +1,75 @@
+
+[
+  {
+    "id": 1,
+    "name": "Samsung Galaxy S25",
+    "category": "Smartphones",
+    "price": 8999,
+    "stock": 12,
+    "image": "images/samsung-s25.jpg"
+  },
+  {
+    "id": 2,
+    "name": "iPhone 16",
+    "category": "Smartphones",
+    "price": 9999,
+    "stock": 8,
+    "image": "images/iphone-16.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Xiaomi Redmi Note 14",
+    "category": "Smartphones",
+    "price": 2499,
+    "stock": 20,
+    "image": "images/xiaomi-redmi-note-14.jpg"
+  },
+  {
+    "id": 4,
+    "name": "HP Pavilion",
+    "category": "Ordinateurs",
+    "price": 7499,
+    "stock": 10,
+    "image": "images/hp-pavilion.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Lenovo IdeaPad",
+    "category": "Ordinateurs",
+    "price": 6299,
+    "stock": 15,
+    "image": "images/lenovo-ideapad.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Sony WH-CH520",
+    "category": "Audio",
+    "price": 499,
+    "stock": 25,
+    "image": "images/sony-wh-ch520.jpg"
+  },
+  {
+    "id": 7,
+    "name": "AirPods 4",
+    "category": "Audio",
+    "price": 1799,
+    "stock": 18,
+    "image": "images/airpods-4.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Logitech G502",
+    "category": "Accessoires",
+    "price": 699,
+    "stock": 14,
+    "image": "images/logitech-g502.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Samsung Galaxy Watch",
+    "category": "Accessoires",
+    "price": 1299,
+    "stock": 9,
+    "image": "images/samsung-galaxy-watch.jpg"
+  }
+]
